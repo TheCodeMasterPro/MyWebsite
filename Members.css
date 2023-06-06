@@ -1,0 +1,25 @@
+﻿body {
+    /* Location of the image */ background-image: url(https://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg); /* Background image is centered vertically and horizontally at all times */
+    background-position: center center; /* Background image doesn’t tile */
+    background-repeat: no-repeat; /* Background image is fixed in the viewport so that it doesn’t move when the content’s height is greater than the image’s height */
+    background-attachment: fixed; /* This is what makes the background image rescale based on the container’s size */
+    background-size: cover; /* Set a background color that will be displayed while the background image is loading */
+    background-color: white;
+}
+
+h3 {
+    text-align: right;
+}
+
+p {
+    text-align: right;
+    font-size: larger;
+    margin: 0;
+}
+
+.image {}
+
+    .image img {
+        float: left;
+        border-radius: 100%;
+    }
